@@ -1,4 +1,4 @@
-import hari from "./hari-pic.jpg";
+import mani from "./mani-gandhi.jpg";
 import logo from "./logo.svg";
 import web from "./web.png";
 import menu from "./menu.svg";
@@ -84,7 +84,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  hari,
+  mani,
   reactNative,
   flutter,
   springBoot,

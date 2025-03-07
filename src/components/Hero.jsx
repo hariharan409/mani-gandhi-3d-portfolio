@@ -2,16 +2,12 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { useSelector } from "react-redux";
-import { DeveloperPlatforms } from "./hero-child-components/Index";
-import {WhatIAMUpTo} from "./index";
 
 const Hero = () => {
   const careerDuration = useSelector((state) => state.career.careerDuration);
 
   return (
     <section className={`relative w-full h-screen mx-auto pt-7`}>
-      <DeveloperPlatforms />
-      <WhatIAMUpTo />
       <div className={`absolute inset-0 top-[170px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
@@ -20,11 +16,11 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Hari</span>
+            Hi, I'm <span className='text-[#915EFF]'>Mani</span>
           </h1>
           <h5 className="text-xl tracking-wider">{careerDuration} years of experience</h5>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            <span className="text-[#915EFF]">Full-Stack Engineer at Keppel, Singapore</span>
+            <span className="text-[#915EFF]">Facilities Manager at Amazon SIN100</span>
           </p>
         </div>
       </div>

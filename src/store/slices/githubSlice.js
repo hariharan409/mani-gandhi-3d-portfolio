@@ -78,7 +78,6 @@ const githubSlice = createSlice({
         isLiked: false,
         likeCount: null,
         status: {
-            repoCount: 'idle',  // For tracking the request status
             getLikeCount: 'idle',
             updateLikeCount: 'idle'
         },
@@ -87,18 +86,6 @@ const githubSlice = createSlice({
     reducers: {},
     extraReducers: (builder) => {
         builder
-        // get repo count from github
-        .addCase(fetchMyGithubReposCount.pending,(state) => {
-            state.status.repoCount = "loading";
-        })
-        .addCase(fetchMyGithubReposCount.fulfilled,(state,action) => {
-            state.status.repoCount = "succeeded";
-            state.repoCount = action.payload; // Set the repository count
-        })
-        .addCase(fetchMyGithubReposCount.rejected,(state,action) => {
-            state.status.repoCount = 'failed';
-            state.error = action.error.message;
-        })
         // get app like count from github specific branch
         .addCase(fetchMyAppLikeCount.pending,(state) => {
             state.status.getLikeCount = "loading";

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { menu, close, hari } from "../assets";
+import { menu, close, mani } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -41,13 +41,13 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={hari} alt='logo' className='w-9 h-9 object-contain rounded-[20%]' />
+          <img src={mani} alt='logo' className='w-9 h-9 object-contain rounded-[20%]' />
           <div className="animate-pulse">
             <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-              Hari &nbsp;
-              <span className='sm:block hidden'> | Full Stack Engineer</span>
+              Mani Gandhi &nbsp;
+              <span className='md:block hidden'> | Facilities Manager</span>
             </p>
-            <p className="text-white-100 text-xs">hharan987@gmail.com</p>
+            <p className="text-white-100 text-xs">manivgandhi@gmail.com</p>
           </div>
         </Link>
 
