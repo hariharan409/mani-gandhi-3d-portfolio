@@ -49,9 +49,10 @@ import typescriptForJSDevelopers from "./certification/typescript-for-js-develop
 
 
 /* List of Companies I Have Worked With (Including My Current Role) */
-import keppel from "./company/keppel.png";
-import inforge from "./company/inforge.jpg";
-import fiveSixtyDegree from "./company/560-degree.png";
+import aSpeedInfotech from "./company/a-speed-infotech.png";
+import cbre from "./company/cbre.jpg";
+import indsys from "./company/indsys.png";
+import iwow from "./company/iwow-connection.jpg";
 
 // videos
 import myAIVideo from "./video/about-me-ai-video.mp4";
@@ -92,9 +93,11 @@ export {
   postgres,
   aws,
   // companies
-  keppel,
-  inforge,
-  fiveSixtyDegree,
+  aSpeedInfotech,
+  cbre,
+  indsys,
+  iwow,
+  
   // certificate
   professionalCertificate,
   introductionToTypescript,

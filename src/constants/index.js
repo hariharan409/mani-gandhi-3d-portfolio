@@ -8,9 +8,10 @@ import {
   nodejs,
   mongodb,
   figma,
-  keppel,
-  inforge,
-  fiveSixtyDegree,
+  aSpeedInfotech,
+  cbre,
+  indsys,
+  iwow,
   reactNative,
   flutter,
   springBoot,
@@ -53,7 +54,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full Stack Engineer",
+    title: "Facilities Manager",
     icon: web
   }
 ];
@@ -115,48 +116,63 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full Stack Engineer",
-    company_name: "Keppel Corporation Limited",
+    title: "Technical Facilities Manager",
+    company_name: "CBRE",
     country: "Singapore",
-    icon: keppel,
+    icon: cbre,
     iconBg: "#383E56",
-    date: "Dec 2022 - Present",
+    date: "Sep 2023 - Present",
     points: [
-      "Designing and developing scalable web and mobile applications using React.js and React Native.",
-      "Creating and consuming REST APIs using Node.js, ensuring efficient backend logic and seamless integration with frontend applications.",
-      "Working with MS SQL Server, writing optimized queries, stored procedures, and managing database performance.",
-      "Utilizing AWS services such as S3 for storage, API Gateway for routing, and EC2 for deployment.",
-      "Implementing responsive and interactive UI/UX designs to enhance user experience across web and mobile platforms."
+      "Oversee the efficient operation and maintenance of critical building systems, ensuring optimal performance and minimal downtime.",
+      "Implement preventive and predictive maintenance strategies to extend asset life and reduce operational costs.",
+      "Drive energy efficiency programs and sustainability projects to optimize resource utilization and support ESG goals.",
+      "Manage vendor contracts, negotiate service agreements, and coordinate with internal stakeholders for seamless facility operations.",
+      "Ensure adherence to safety regulations, industry standards, and risk management protocols to maintain a safe working environment."
     ],
   },
   {
-    title: "Full Stack Engineer",
-    company_name: "Inforge Technologies Pvt Ltd",
-    country: "India",
-    icon: inforge,
+    title: "Data Center MEP Manager",
+    company_name: "A-Speed Infotech Pte Ltd",
+    country: "Singapore",
+    icon: aSpeedInfotech,
     iconBg: "#E6DEDD",
-    date: "Apr 2021 - Dec 2022",
+    date: "Aug 2020 - Aug 2023",
     points: [
-      "Specialized in Flutter, Node.js, Spring Boot (Java), MySQL, and GraphQL, building scalable and high-performance applications.",
-      "Developed a quiz application for a Norwegian client, incorporating interactive features, real-time scoring, and a user-friendly UI.",
-      "Built a car import-export application for the Japanese market, integrating secure payment systems, real-time tracking, and business logic automation.",
-      "Learned basic Japanese to communicate effectively with clients, ensuring smooth project coordination and requirement gathering.",
-      "Worked across the entire development lifecycle, from backend architecture to frontend UI/UX, ensuring robust and efficient software solutions."
+      "Managed the operation and maintenance of Mechanical, Electrical, and Plumbing (MEP) systems to ensure maximum uptime and efficiency.",
+      "Oversaw UPS, generators, cooling systems, fire suppression, and BMS to maintain 24/7 reliability for the data center.",
+      "Implemented energy-efficient solutions and sustainability practices to optimize power usage and reduce operational costs.",
+      "Managed third-party service providers, ensuring compliance with SLAs, maintenance schedules, and safety standards.",
+      "Ensured adherence to ISO, TIA-942, and local regulatory standards, minimizing risks and enhancing data center resilience."
     ],
   },
   {
-    title: "Backend Engineer",
-    company_name: "560 Degree Solutions",
-    country: "India",
-    icon: fiveSixtyDegree,
+    title: "Assistant Engineer",
+    company_name: "iWOW Connections Pte Ltd",
+    country: "Singapore",
+    icon: iwow,
     iconBg: "#383E56",
-    date: "Nov 2020 - Apr 2021",
+    date: "Sep 2016 - Aug 2020",
     points: [
-      "Started my career as a Backend Engineer, gaining hands-on experience in Java Spring MVC, MySQL, and Angular (Basics).",
-      "Focused on building robust backend architectures, optimizing database performance, and implementing RESTful APIs.",
-      "Dedicated significant time to mastering fundamentals of software development, strengthening problem-solving and debugging skills.",
-      "Collaborated with cross-functional teams to integrate frontend and backend systems, ensuring smooth data flow and user interactions.",
-      "Gained a strong foundation in software development principles, which became the cornerstone of my growth as a full-stack engineer."
+      "Provided on-site and remote technical support, troubleshooting network and system issues to ensure smooth operation.",
+      "Assisted in the installation, configuration, and maintenance of network hardware, servers, and telecommunications systems.",
+      "Collaborated with senior engineers to plan and execute technical projects, ensuring timely delivery and efficient resource management.",
+      "Conducted regular system performance monitoring and optimization to improve network reliability and reduce downtime.",
+      "Worked closely with clients and vendors to ensure proper implementation of solutions, service delivery, and troubleshooting support."
+    ],
+  },
+  {
+    title: "Technical cum Customer Support Engineer",
+    company_name: "INDSYS Infotech",
+    country: "India",
+    icon: indsys,
+    iconBg: "#383E56",
+    date: "Jun 2013 - Aug 2016",
+    points: [
+      "Provided on-site and remote technical support, troubleshooting network and system issues to ensure smooth operation.",
+      "Assisted in the installation, configuration, and maintenance of network hardware, servers, and telecommunications systems.",
+      "Collaborated with senior engineers to plan and execute technical projects, ensuring timely delivery and efficient resource management.",
+      "Conducted regular system performance monitoring and optimization to improve network reliability and reduce downtime.",
+      "Worked closely with clients and vendors to ensure proper implementation of solutions, service delivery, and troubleshooting support."
     ],
   },
 ];

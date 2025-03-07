@@ -56,19 +56,22 @@ const About = () => {
       >
         <ul className="list-disc marker:text-[#915EFF] pl-5">
           <li>
-          🚀 Full-Stack Developer with {careerDuration} years of experience at Keppel, Singapore, skilled in React, React Native, Node.js, Java Spring Boot, and AWS. Specializing in scalable web and mobile applications.
+            👋 Hi, I’m Mani Gandhi, a dedicated 🏢 Facilities Manager at Amazon SIN100 in Singapore. I specialize in ensuring seamless facility operations, safety, and efficiency.
           </li>
           <li>
-            📚 Currently pursuing MTech in Software Engineering (long-distance) at BITS Pilani, expanding expertise in modern development and cloud computing.
+            ✅ <strong>Experienced Leader ({careerDuration} years)</strong> – Managing large-scale facilities with a focus on operational excellence and team leadership.
           </li>
           <li>
-            🔧 Throughout my career, I have worked on end-to-end development of applications, integrating frontend, backend, and cloud solutions to deliver seamless user experiences. My expertise extends to Redux, React Hook Form, i18n (internationalization), authentication, and API integrations.
+            🔧 <strong>Problem-Solver</strong> – Implementing cost-effective solutions to optimize workplace infrastructure and processes.          
           </li>
           <li>
-            🌍  As an advocate for open-source development, I have contributed to various npm packages, including my own world-information package, which provides structured geographical data. Additionally, I am working on a customizable React sidebar component to enhance UI/UX in modern applications.
+            💡 <strong>Tech-Driven Approach</strong> – Leveraging smart technologies and data-driven strategies for efficient facility management.          
           </li>
           <li>
-            💡 My problem-solving skills and deep understanding of software project management help me build robust and maintainable solutions.
+            🤝 <strong>Collaborative Mindset</strong> – Building strong cross-functional relationships to drive success and business growth.          
+          </li>
+          <li>
+            📚 <strong>Continuous Learner</strong> – Passionate about staying updated with industry best practices and innovations.
           </li>
         </ul>
       </motion.p>
