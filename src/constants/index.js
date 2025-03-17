@@ -17,24 +17,16 @@ import {
   springBoot,
   mssql,
   aws,
-  introductionToTypescript,
-  learningAWSLambda,
-  learningGit,
-  learningReduxToolkit,
-  nodejsEssentialTraining,
-  gitIntermediateTechnique,
-  jsDeepLearning,
-  jsEssentialTraining,
-  jsForLogicalThinking,
-  jsProfessionalCertificate,
-  learnJS,
-  problemSolvingCertificate,
-  reactJSCodeChallenge,
-  typescriptForJSDevelopers,
   brindhan,
   krishna,
   manikandan,
   kishore,
+  //certifications
+  cnetTraining,
+
+  noImageAvailable
+
+
 } from "../assets";
 
 export const navLinks = [
@@ -214,209 +206,70 @@ const mentors = [
 
 const certifications = [
   {
-    name: "Introduction To Typescript",
+    name: "CDCTP",
     description:
-      "The Introduction to TypeScript course from Great Learning covers key concepts like strong typing, classes, interfaces, and OOP, helping developers write scalable, maintainable code for modern web apps.",
+      "The Certified Data Centre Technician Professional (CDCTP) certification validates expertise in maintaining, managing, and troubleshooting data center infrastructure. It covers power, cooling, security, and compliance, ensuring operational efficiency and reliability.",
     specialization: [
       {
-        name: "typescript",
+        name: "CDCTP",
         color: "blue-text-gradient",
       },
     ],
-    image: introductionToTypescript,
-    certificateLink: "https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-typescript?utm_source=linkedin&utm_medium=linkedin&utm_campaign=linkedin_certificate_share&utm_source_page=public_certificate_view",
+    image: cnetTraining,
+    certificateLink: "https://media.licdn.com/dms/image/v2/D562DAQHCPBzJH5auKQ/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1710240316701?e=1742788800&v=beta&t=rOm05MCsEkxCxH-XCWv95Fr8eNXXm171PntCf2376sM",
   },
   {
-    name: "AWS Lambda",
-    description: "The Learning Amazon Web Services Lambda course covers AWS Lambda's core concepts, event-driven architecture, deployment, and integration with AWS services, helping build scalable, serverless applications efficiently.",
+    name: "Water Efficiency Manager",
+    description:
+      "The Water Efficiency Manager certification validates expertise in optimizing water usage, implementing conservation strategies, and ensuring regulatory compliance. It covers sustainable water management, auditing, and efficiency improvements for industries, buildings, and municipalities.",
     specialization: [
       {
-        name: "aws lambda",
+        name: "water efficiency",
         color: "blue-text-gradient",
       },
     ],
-    image: learningAWSLambda,
-    certificateLink: "https://www.linkedin.com/learning/certificates/0a6ae7aa42ec45e93c335fa1e798e02744066bf327a8995abb876e5d2f197609?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bc5SxWybrTCqXsoqpleqFAg%3D%3D",
+    image: noImageAvailable,
+    certificateLink: "",
   },
   {
-    name: "Git and Github",
-    description: "The Learning Git and GitHub course covers version control basics, branching, merging, pull requests, and collaboration using Git and GitHub, enabling efficient code management and teamwork in software development.",
+    name: "WSQ Manage Work At Height",
+    description:
+      "The WSQ Manage Work at Height certification trains individuals in risk assessment, safety implementation, and compliance for height-related work. It covers fall prevention, emergency rescue planning, and workplace safety regulations and efficiency improvements for industries, buildings.",
     specialization: [
       {
-        name: "git",
+        name: "wsq management",
         color: "blue-text-gradient",
       },
-      {
-        name: "github",
-        color: "green-text-gradient",
-      },
     ],
-    image: learningGit,
-    certificateLink: "https://www.linkedin.com/learning/certificates/f1ba474f9035cdc068efc2a8d3db98fd0ad951a7f5da7caef93802f727b58365?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bc5SxWybrTCqXsoqpleqFAg%3D%3D",
+    image: noImageAvailable,
+    certificateLink: "",
   },
   {
-    name: "Learning Redux Toolkit",
-    description: "The Learning Redux Toolkit course covers state management, reducers, slices, async operations, and best practices, helping developers efficiently manage application state in React using Redux Toolkit.",
+    name: "WSQ Develop a Risk Management Implementation Plan (bizSAFE 2)",
+    description:
+      "The WSQ Develop a Risk Management Implementation Plan (bizSAFE 2) certification equips professionals with the skills to assess, manage, and mitigate workplace risks, ensuring compliance with safety regulations and promoting a safe working environment.",
     specialization: [
       {
-        name: "react.js",
+        name: "risk management",
         color: "blue-text-gradient",
       },
-      {
-        name: "redux.js",
-        color: "green-text-gradient",
-      },
     ],
-    image: learningReduxToolkit,
-    certificateLink: "https://www.linkedin.com/learning/certificates/52aae58554d124ae2d06cb030b7ea41b11e5831b5f3fa36dab9972ea72b79f63?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bc5SxWybrTCqXsoqpleqFAg%3D%3D",
+    image: noImageAvailable,
+    certificateLink: "",
   },
   {
-    name: "Node.js Essential Training",
-    description: "The Node.js Essential Training course covers core Node.js concepts, including asynchronous programming, modules, REST APIs, and database integration, helping developers build scalable and efficient server-side applications.",
+    name: "A Comparison of AC and DC Power Distribution in the Data Center",
+    description:
+      "The certification focuses on comparing AC (Alternating Current) and DC (Direct Current) power distribution systems in data centers, examining efficiency, cost, scalability, reliability, and energy consumption to optimize power delivery and infrastructure.",
     specialization: [
       {
-        name: "node.js",
+        name: "power distribution",
         color: "blue-text-gradient",
       },
     ],
-    image: nodejsEssentialTraining,
-    certificateLink: "https://www.linkedin.com/learning/certificates/59c524b6355ec7e787291b7095581b8ed8c688accb556c161c002cc770021dda?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bc5SxWybrTCqXsoqpleqFAg%3D%3D",
-  },
-
-  {
-    name: "TypeScript for Developers",
-    description: "TypeScript for JavaScript Developers is a course designed to help JavaScript programmers learn TypeScript, covering types, interfaces, generics, and advanced features to build scalable, maintainable code.",
-    specialization: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-    ],
-    image: typescriptForJSDevelopers,
-    certificateLink: "https://www.linkedin.com/learning/certificates/e460c0c3d314198f94e5b50f6a7e3de791258064599c51c4e3c28913a2880821?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BNwhPBRMuRvq7m4rRj2wMXA%3D%3D",
-  },
-
-  {
-    name: "Hacker Rank Problem Solving",
-    description: "HackerRank Problem Solving enhances algorithmic thinking and coding skills through challenges on data structures sorting graph theory and more helping developers improve efficiency and logic.",
-    specialization: [
-      {
-        name: "data structure",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "algorithm",
-        color: "green-text-gradient",
-      },
-    ],
-    image: problemSolvingCertificate,
-    certificateLink: "https://www.hackerrank.com/certificates/156401efb2da",
-  },
-
-  {
-    name: "React.js Code Challenges",
-    description: "React.js Code Challenges helps developers improve their React skills through hands-on coding exercises covering components state props hooks and advanced patterns to build efficient and scalable applications.",
-    specialization: [
-      {
-        name: "react.js",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: reactJSCodeChallenge,
-    certificateLink: "https://www.linkedin.com/learning/certificates/ed6566487f988f70e8d9cd7bdf82c565edf3013e8c0670a390e3f3f1b6224036?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BNwhPBRMuRvq7m4rRj2wMXA%3D%3D",
-  },
-
-  {
-    name: "Git Intermediate Techniques",
-    description: "Git Intermediate Techniques covers branching merging rebasing stash interactive rebase and advanced commit management helping developers enhance their version control skills for efficient collaboration",
-    specialization: [
-      {
-        name: "git",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "version control",
-        color: "green-text-gradient",
-      },
-    ],
-    image: gitIntermediateTechnique,
-    certificateLink: "https://www.linkedin.com/learning/certificates/84e6ec7b8b39fcb84bbcb71fb42f260221e3dd18ea1861c29cf0326e65d449f4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BNwhPBRMuRvq7m4rRj2wMXA%3D%3D",
-  },
-
-  {
-    name: "JavaScript Essential Training",
-    description: "JavaScript Essential Training covers core concepts like variables functions objects DOM manipulation and asynchronous programming helping developers build dynamic and interactive web applications efficiently",
-    specialization: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: jsEssentialTraining,
-    certificateLink: "https://www.linkedin.com/learning/certificates/7ed5c5ae26231c4bfa02e5dbb42c3cffe3c0ab76a2b15b8069288cd42bca5a34?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BNwhPBRMuRvq7m4rRj2wMXA%3D%3D",
-  },
-
-  {
-    name: "JavaScript Certificate by Mozilla",
-    description: "JavaScript Foundations Professional Certificate by Mozilla covers fundamental JavaScript concepts including variables functions objects and event handling helping developers build interactive and dynamic web applications",
-    specialization: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "web development",
-        color: "green-text-gradient",
-      },
-    ],
-    image: jsProfessionalCertificate,
-    certificateLink: "https://www.linkedin.com/learning/certificates/129bfced981d20a863c24db6356ca597e7b965ea234ae81957c31a7c796ac28d?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BNwhPBRMuRvq7m4rRj2wMXA%3D%3D",
-  },
-
-  {
-    name: "JavaScript: Under the Hood",
-    description: "JavaScript: Under the Hood explores the inner workings of JavaScript including how the engine interprets code memory management event loops and the call stack empowering developers to write more efficient and optimized code.",
-    specialization: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: jsDeepLearning,
-    certificateLink: "https://www.linkedin.com/learning/certificates/1a254590562fdd8da474de477723f5a0ca5d45a0e283e0f3aa6461be8a35ea95?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BNwhPBRMuRvq7m4rRj2wMXA%3D%3D",
-  },
-  {
-    name: "Javascript for Logical Thinking",
-    description: "JavaScript for Logical Thinking and Problem Solving focuses on using JavaScript to develop strong problem-solving skills by covering algorithms, data structures, and logic-based challenges to enhance coding efficiency and clarity.",
-    specialization: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "problem solving",
-        color: "green-text-gradient",
-      },
-    ],
-    image: jsForLogicalThinking,
-    certificateLink: "https://www.udemy.com/certificate/UC-afa7d773-7f7b-4b45-a3e5-ee95c3e1497a/",
-  },
-  {
-    name: "Learning the JavaScript Language",
-    description: "Learning the JavaScript Language covers the fundamentals of JavaScript, including syntax, variables, data types, functions, and control structures, helping developers build a strong foundation for web development.",
-    specialization: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: learnJS,
-    certificateLink: "https://www.linkedin.com/learning/certificates/2a56ed354117b8632e6f60da58051ac62d3a9f79bf534ffb072301bd5e9b7649?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BNwhPBRMuRvq7m4rRj2wMXA%3D%3D",
-  },
+    image: noImageAvailable,
+    certificateLink: "",
+  }
 ];
 
 export { services, technologies, experiences, mentors, certifications };

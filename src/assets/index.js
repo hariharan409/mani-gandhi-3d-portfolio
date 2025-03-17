@@ -31,21 +31,8 @@ import stackOverflow from "./professional-profile/stack-overflow.png";
 
 
 /* list of certifications */
+import cnetTraining from "./certification/cnet-training.png";
 import professionalCertificate from "./certification/professional-certificate.png";
-import introductionToTypescript from "./certification/introduction-to-typescript.png";
-import learningAWSLambda from "./certification/learning-aws-lambda.png";
-import learningGit from "./certification/learning-git-github.png";
-import learningReduxToolkit from "./certification/learning-redux-toolkit.png";
-import nodejsEssentialTraining from "./certification/nodejs-essential-training.png";
-import gitIntermediateTechnique from "./certification/git-intermediate-technique.png";
-import jsDeepLearning from "./certification/js-deep-learning.png";
-import jsEssentialTraining from "./certification/js-essential-training.png";
-import jsForLogicalThinking from "./certification/js-for-logical-thinking.png";
-import jsProfessionalCertificate from "./certification/js-professional-certificate.png";
-import learnJS from "./certification/learn-js.png";
-import problemSolvingCertificate from "./certification/problem-solving-certificate.png";
-import reactJSCodeChallenge from "./certification/react-js-code-challenge.png";
-import typescriptForJSDevelopers from "./certification/typescript-for-js-developers.png";
 
 
 /* List of Companies I Have Worked With (Including My Current Role) */
@@ -66,6 +53,8 @@ import manikandan from "./project-manager/mani-keppel.jpg";
 /* lottie animation */
 import birdAnimation from "./lottie/bird.json";
 import monkeyAnimation from "./lottie/monkey.json";
+
+import noImageAvailable from "./no-image-available.jpeg";
 
 export {
   logo,
@@ -99,21 +88,8 @@ export {
   iwow,
   
   // certificate
+  cnetTraining,
   professionalCertificate,
-  introductionToTypescript,
-  learningAWSLambda,
-  learningGit,
-  learningReduxToolkit,
-  nodejsEssentialTraining,
-  gitIntermediateTechnique,
-  jsDeepLearning,
-  jsEssentialTraining,
-  jsForLogicalThinking,
-  jsProfessionalCertificate,
-  learnJS,
-  problemSolvingCertificate,
-  reactJSCodeChallenge,
-  typescriptForJSDevelopers,
   // professional profile
   github,
   npm,
@@ -130,5 +106,7 @@ export {
 
   // lottie
   birdAnimation,
-  monkeyAnimation
+  monkeyAnimation,
+
+  noImageAvailable
 };
