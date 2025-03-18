@@ -1,26 +1,10 @@
 import {
+  facilities,
   web,
-  javascript,
-  typescript,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  figma,
   aSpeedInfotech,
   cbre,
   indsys,
   iwow,
-  reactNative,
-  flutter,
-  springBoot,
-  mssql,
-  aws,
-  brindhan,
-  krishna,
-  manikandan,
-  kishore,
   //certifications
   cnetTraining,
 
@@ -54,55 +38,55 @@ const services = [
 const technologies = [
   {
     name: "MEP",
-    icon: reactjs,
+    icon: facilities,
   },
   {
-    name: "Vendor Management",
-    icon: reactNative,
+    name: "Vendor mgnt",
+    icon: facilities,
   },
   {
-    name: "Data Center Operations",
-    icon: redux,
+    name: "Data Center ops",
+    icon: facilities,
   },
   {
-    name: "Facility Management (FM)",
-    icon: nodejs,
+    name: "Facility mgnt (FM)",
+    icon: facilities,
   },
   {
-    name: "Mission Critical Facilities",
-    icon: flutter
+    name: "Critical Facilities",
+    icon: facilities
   },
   {
-    name: "Incident Management",
-    icon: springBoot
+    name: "Incident mgmt",
+    icon: facilities
   },
   {
     name: "Maintenance & Repair",
-    icon: javascript,
+    icon: facilities,
   },
   {
-    name: "Building Management Systems",
-    icon: typescript,
+    name: "Building mgnt Sys",
+    icon: facilities,
   },
   {
-    name: "Workplace Safety and Health",
-    icon: tailwind,
+    name: "Workplace Safety",
+    icon: facilities,
   },
   {
     name: "BACnet",
-    icon: mongodb,
+    icon: facilities,
   },
   {
     name: "Modbus",
-    icon: figma,
+    icon: facilities,
   },
   {
     name: "AHU",
-    icon: mssql
+    icon: facilities
   },
   {
     name: "IP CCTV",
-    icon: aws
+    icon: facilities
   }
 ];
 
@@ -166,41 +150,6 @@ const experiences = [
       "Conducted regular system performance monitoring and optimization to improve network reliability and reduce downtime.",
       "Worked closely with clients and vendors to ensure proper implementation of solutions, service delivery, and troubleshooting support."
     ],
-  },
-];
-
-const mentors = [
-  {
-    description:
-      "Brindhan Settu is the Founder & Managing Director of Inforge Technologies, with vast experience in project management and development. From him, I learned how to handle complex logics efficiently and, beyond work, gained valuable behavioral skills that have shaped my professional growth.",
-    name: "Brindhan",
-    designation: "MD/CEO",
-    company: "Inforge Technologies pvt ltd - coimbatore/india",
-    image: brindhan,
-  },
-  {
-    description:
-      "Krishna Thivakar is the Technical Team Lead at Inforge Technologies, with extensive experience in full-stack development and debugging. From him, I learned advanced coding skills and problem-solving techniques, while also gaining valuable insights into efficient software development practices that have significantly shaped my technical growth.",
-    name: "Krishna Thivakar",
-    designation: "TL",
-    company: "Inforge Technologies pvt ltd - coimbatore/india",
-    image: krishna,
-  },
-  {
-    description:
-      "Kishore Kumar is the Technical Team Lead at Inforge Technologies, he mentored me in data structures and algorithms, improving my programming and mobile app dev skills. His guidance on applying efficient algorithms in real-world projects has been key to my growth in backend and mobile app development.",
-    name: "Kishore Kumar",
-    designation: "TL",
-    company: "Inforge Technologies pvt ltd - coimbatore/india",
-    image: kishore,
-  },
-  {
-    description:
-      "Manikandan Balasubramanian is the Senior Manager at Seatrium and an ex-Software Engineer, with vast experience in leadership, IT environments, and database queries. From him, I learned valuable leadership skills and expertise in DB queries, and beyond work, he has helped me with personal growth, shaping my overall development.",
-    name: "Manikandan",
-    designation: "Senior Manager",
-    company: "Keppel & Seatrium - Singapore",
-    image: manikandan,
   },
 ];
 
@@ -272,4 +221,4 @@ const certifications = [
   }
 ];
 
-export { services, technologies, experiences, mentors, certifications };
+export { services, technologies, experiences, certifications };

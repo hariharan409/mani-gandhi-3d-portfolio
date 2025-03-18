@@ -5,7 +5,6 @@ import About from "./About";
 import Tech from "./Tech";
 import Experience from "./Experience";
 import Certification from "./Certification";
-import Mentor from "./Mentor";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Footer from './Footer';
@@ -17,7 +16,6 @@ export {
   Tech,
   Experience,
   Certification,
-  Mentor,
   Contact,
   CanvasLoader,
   EarthCanvas, 
