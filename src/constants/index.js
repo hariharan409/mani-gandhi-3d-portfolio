@@ -53,55 +53,55 @@ const services = [
 
 const technologies = [
   {
-    name: "React JS",
+    name: "MEP",
     icon: reactjs,
   },
   {
-    name: "React Native",
+    name: "Vendor Management",
     icon: reactNative,
   },
   {
-    name: "Redux Toolkit",
+    name: "Data Center Operations",
     icon: redux,
   },
   {
-    name: "Node JS",
+    name: "Facility Management (FM)",
     icon: nodejs,
   },
   {
-    name: "Flutter",
+    name: "Mission Critical Facilities",
     icon: flutter
   },
   {
-    name: "Spring Boot",
+    name: "Incident Management",
     icon: springBoot
   },
   {
-    name: "JavaScript",
+    name: "Maintenance & Repair",
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "Building Management Systems",
     icon: typescript,
   },
   {
-    name: "Tailwind CSS",
+    name: "Workplace Safety and Health",
     icon: tailwind,
   },
   {
-    name: "MongoDB",
+    name: "BACnet",
     icon: mongodb,
   },
   {
-    name: "figma",
+    name: "Modbus",
     icon: figma,
   },
   {
-    name: "Mssql",
+    name: "AHU",
     icon: mssql
   },
   {
-    name: "AWS",
+    name: "IP CCTV",
     icon: aws
   }
 ];
